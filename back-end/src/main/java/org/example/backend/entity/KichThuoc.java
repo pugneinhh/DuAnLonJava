@@ -1,0 +1,11 @@
+package org.example.backend.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import org.example.backend.entity.base.BaseEntity;
+
+@Entity
+@Table(name = "kich_thuoc")
+public class KichThuoc extends BaseEntity {
+
+}
